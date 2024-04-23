@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: hsl(60, 87%, 94%);
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(27, 108, 39);
+    margin-bottom: 300px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    color: #175b1d;
+    font-size: 80;
+}
+
+h2 {
+    color: #175b1d;
+    font-size: 40;
+}
+
+h3 {
+    color: #1e5723;
+    font-size: 40;
+}
+
+h3, p {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+a, #vinculos {
+    text-decoration: none;
+    color: #175b1d;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #D1E064;
+}
+
+#vinculos {
+    list-style-type: none;
+}
+
+#fotodeperfil {
+    width: 20%;
+    margin: auto;
+    display: block;
+    border-radius: 300%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.habilidades {
+    margin-top: 50px;
+}
+
+img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    border-radius: 30px;
+}
